@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KSolo</string>
+    <string name="title_activity_about">About Program</string>
+    <string name="title_activity_game">Game in progress</string>
+    <string name="title_activity_finish">Game Over</string>
+    <string name="title_activity_highscores">High Scores</string>
+    <string name="title_activity_nameentry">High score!</string>
+    <string name="button_new_game">New Game</string>
+    <string name="button_high_scores">High Scores</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Exit</string>
+    <string name="about_text">by Kanaris Manolopoulos\n\nCopyright@2018</string>
+    <string name="exit_choice">Exit</string>
+    <string name="time_text">Time:</string>
+    <string name="back_text">Back</string>
+    <string name="action_abort">Abort</string>
+    <string name="ok_text">OK</string>
+    <string name="result_message1">Pawns left:</string>
+    <string name="result_message2">Seconds elapsed:</string>
+    <string name="header_number_string">#</string>
+    <string name="header_name_string">Name</string>
+    <string name="header_pawns_string">Pawns</string>
+    <string name="header_seconds_string">Seconds</string>
+    <string name="header_date_string">Date</string>
+    <string name="name_entry_string">Enter your name</string>
+
+</resources>

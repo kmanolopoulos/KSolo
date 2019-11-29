@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/layout_root"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:orientation="vertical"
+     android:padding="10dp" >
+
+<TextView
+    android:id="@+id/name_entry_textview"
+    android:layout_width="235dp"
+    android:layout_height="35dp"
+    android:background="@drawable/header_text_shape"
+    android:gravity="center"
+    android:text="@string/name_entry_string" />
+
+<EditText
+	android:id="@+id/name_entry_edit_text"
+	android:layout_width="235dp"
+	android:layout_height="35dp"
+    android:gravity="center" >
+	<requestFocus />
+</EditText>
+
+</LinearLayout>

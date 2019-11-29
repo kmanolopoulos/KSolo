@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/data_textview_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/data_number_textview_layout"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/general_text_shape"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/data_name_textview_layout"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/general_text_shape"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/data_pawns_textview_layout"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/general_text_shape"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/data_seconds_textview_layout"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/general_text_shape"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/data_date_textview_layout"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/general_text_shape"
+        android:gravity="center" />
+</LinearLayout>

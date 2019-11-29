@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_textview_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/header_number_textview_layout"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/header_text_shape"
+        android:gravity="center"
+        android:text="@string/header_number_string" />
+
+    <TextView
+        android:id="@+id/header_name_textview_layout"
+        android:layout_width="110dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/header_text_shape"
+        android:gravity="center"
+        android:text="@string/header_name_string" />
+
+    <TextView
+        android:id="@+id/header_pawns_textview_layout"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/header_text_shape"
+        android:gravity="center"
+        android:text="@string/header_pawns_string" />
+
+    <TextView
+        android:id="@+id/header_seconds_textview_layout"
+        android:layout_width="65dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/header_text_shape"
+        android:gravity="center"
+        android:text="@string/header_seconds_string" />
+
+    <TextView
+        android:id="@+id/header_date_textview_layout"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/header_text_shape"
+        android:gravity="center"
+        android:text="@string/header_date_string" />
+</LinearLayout>

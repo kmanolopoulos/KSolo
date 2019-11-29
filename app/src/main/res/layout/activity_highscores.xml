@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/general_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header_textview_layout" />
+    <include
+        android:id="@+id/data_layout_1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/data_textview_layout" />
+    <include
+        android:id="@+id/data_layout_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/data_textview_layout" />
+    <include
+        android:id="@+id/data_layout_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/data_textview_layout" />
+    <include
+        android:id="@+id/data_layout_4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/data_textview_layout" />
+    <include
+        android:id="@+id/data_layout_5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/data_textview_layout" />
+    <include
+        android:id="@+id/data_layout_6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/data_textview_layout" />
+    <include
+        android:id="@+id/data_layout_7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/data_textview_layout" />
+    <include
+        android:id="@+id/data_layout_8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/data_textview_layout" />
+    <include
+        android:id="@+id/data_layout_9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/data_textview_layout" />
+    <include
+        android:id="@+id/data_layout_10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/data_textview_layout" />
+</LinearLayout>
